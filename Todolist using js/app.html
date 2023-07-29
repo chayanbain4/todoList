@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>To Do Application || Create By Chayan</title>
+      <link rel="stylesheet" href="style.css" />
+      <link
+        rel="stylesheet"
+        href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+      />
+    </head>
+  </head>
+
+  <body>
+    <div class="cursor"></div>
+
+    <nav class="navbar">
+      <div class="logo">
+        <img src="roock.png" alt="Stock Tasks" />
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <h2>
+        <div>Chayan</div>
+      </h2>
+    </nav>
+    <div class="popup-box">
+      <div class="popup">
+        <div class="content">
+          <header>
+            <p></p>
+            <i class="uil uil-times"></i>
+          </header>
+          <form action="#">
+            <div class="row title">
+              <label>Title</label>
+              <input
+                type="text"
+                spellcheck="false"
+                placeholder="Enter Your Task Title"
+              />
+            </div>
+            <div class="row description">
+              <label>Description</label>
+              <textarea
+                spellcheck="false"
+                placeholder="Enter Your Task Content"
+              ></textarea>
+            </div>
+            <button></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="wrappers"></div>
+    <div class="wrapper">
+      <li class="add-box" id="add">
+        <div class="icon"><i class="uil uil-plus"></i></div>
+        <p>Add new Task</p>
+      </li>
+      <li class="add-box" id="remove">
+        <div class="icon"><i class="uil uil-times"></i></div>
+        <p>Delete All</p>
+      </li>
+    </div>
+    <div class="copy">
+      <p>|| &copy; 2023 Create By Chayan ||</p>
+    </div>
+
+    <div>
+      <input type="checkbox" class="checkbox" id="checkbox" />
+      <label for="checkbox" class="checkbox-label">
+        <span class="ball"></span>
+      </label>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
